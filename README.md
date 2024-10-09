@@ -10,8 +10,8 @@
     - [Account Recovery System](#account-recovery-system)
     - [Student Dashboard](#student-dashboard)
     - [Admin Dashboard](#admin-dashboard)
+    - [404 Error](#404-error)
   - [Technologies](#technologies)
-  - [Requirements](#requirements)
 
 ## Overview
 **Cobapaz** is a **Payment by Reference System** designed to simplify the management of tuition fees at a private educational institution. The system enables students to generate payment references, while the administration can monitor the status of these transactions through an intuitive administrative dashboard.
@@ -24,28 +24,28 @@ You can view the project demo running [by clicking here](https://youtu.be/aHl0_P
 ### Institutional Website
 - **Home Page:** The landing page of the system that provides an overview and quick access to key functionalities.
   
-  ![Home Page](./assests/img/Home.png)
-  ![Home About](./assests/img/Home-about.png)
-  ![Home Courses](./assests/img/Home-courses.png)
-  ![Home School](./assests/img/Home-school.png)
+  ![Home](./assests/img/home.png)
+  ![Home about](./assests/img/home-about.png)
+  ![Home courses](./assests/img/home-courses.png)
+  ![Home School](./assests/img/home-school.png)
 
 - **Courses Page:** A dedicated page listing all courses offered by the institution, allowing students to explore available options.
 
-  ![Courses](./assests/img/Courses.png)
+  ![Courses](./assests/img/courses.png)
 
 - **Contact Page:** Provides contact information for the institution, facilitating communication between students and administration.
 
-  ![Contacts](./assests/img/Contacts.png)
+  ![Contacts](./assests/img/contacts.png)
 
 - **Footer:** The system's footer that includes important links and information about the institution.
 
-  ![Footer](./assests/img/Footer.png)
+  ![Footer](./assests/img/footer.png)
 
 ### Login System
 - **Login Form:** The interface that allows students to authenticate into the system using their credentials.
 
-  ![Signin](./assests/img/Signin.png)
-  ![Signin Loading](./assests/img/Signin-loading.png)
+  ![Signin](./assests/img/signin.png)
+  ![Signin Loading](./assests/img/signin-loading.png)
 
 ### Registration System
 - **Registration Form:** Used to register new students, gathering the necessary information for account creation.
@@ -56,59 +56,64 @@ You can view the project demo running [by clicking here](https://youtu.be/aHl0_P
 
 - **Email Verification Form:** This form verifies if the provided email belongs to the student, ensuring the authenticity of the registration.
 
-  ![Email Verification](./assests/img/email-verification.png)
+  ![Email Verification Form](./assests/img/email-verification.png)
 
 - **Verification Code Form:** Used to validate the OTP (One-Time Password) sent to the student's email, confirming their identity.
 
-  ![Code Verification](./assests/img/code-verification.png)
+  ![Verification Code Form](./assests/img/code-verification.png)
 
 - **Success Page:** Displays a message confirming that the account has been successfully created.
 
-  ![Signup Successful](./assests/img/Signup-successful.png)
+  ![Success Page](./assests/img/signup-successful.png)
 
 ### Account Recovery System
 - **Account Recovery Form:** Allows students to initiate the process of recovering their accounts in case they forget their password.
 
-  ![Forgot Password](./assests/img/forgot-password.png)
+  ![Account Recovery Form](./assests/img/forgot-password.png)
 
 - **Reset Password Form:** An interface where students can set a new password after recovering their account.
 
-  ![Reset Password](./assests/img/reset-password.png)
+  ![Reset Password Form](./assests/img/reset-password.png)
 
 ### Student Dashboard
 - **Edit Profile:** The student panel where users can update personal information and adjust account settings.
 
-  ![Dashboard Profile](./assests/img/dashboard-profile.png)
+  ![Edit Profile](./assests/img/dashboard-profile.png)
 
 - **Edit Image:** A modal that allows students to update their profile picture.
 
-  ![Dashboard Edit Image](./assests/img/dashboard-edit-image.png)
+  ![Edit Image](./assests/img/dashboard-edit-image.png)
 
 - **Payments Dashboard:** A dedicated area for students to make their tuition payments quickly and securely.
 
-  ![Dashboard Payments](./assests/img/dashboard-payments.png)
+  ![Payments Dashboard](./assests/img/dashboard-payments.png)
 
 - **Payments Table:** Displays a history of the payments made by the student, allowing them to track their financial activities.
 
-  ![Dashboard Payments Table](./assests/img/dashboard-payments-table.png)
+  ![Payments Table](./assests/img/dashboard-payments-table.png)
 
 ### Admin Dashboard
 - **Admin Dashboard:** A comprehensive panel that provides analytics and metrics for managing the institution.
 
-  ![Dashboard Admin](./assests/img/dashboard-admin.png)
-  ![Dashboard Admin 2](./assests/img/dashboard-admin-2.png)
+  ![Admin Dashboard](./assests/img/dashboard-admin.png)
+  ![Admin Dashboard 2](./assests/img/dashboard-admin-2.png)
 
 - **Course Management:** A tool for the admin to add, edit, or remove courses offered by the institution.
 
-  ![Dashboard Admin Courses](./assests/img/dashboard-admin-courses.png)
+  ![Course Management](./assests/img/dashboard-admin-courses.png)
 
 - **Student Management:** An interface that allows the admin to view and manage student information.
 
-  ![Dashboard Students](./assests/img/dashboard-admin-students.png)
+  ![Student Management](./assests/img/dashboard-admin-students.png)
 
 - **Admin Management:** Allows the admin to add or remove other administrators from the system.
 
-  ![Dashboard Admins](./assests/img/dashboard-admins.png)
+  ![Admin Management](./assests/img/dashboard-admins.png)
+
+### 404 Error
+- **Page Not Found:** A custom 404 error page that displays a helpful message, guiding users back to accessible areas of the site.
+- 
+  ![Page Not Found](./assests/img/page-not-found.png)
 
 ## Technologies
 
@@ -126,7 +131,7 @@ You can view the project demo running [by clicking here](https://youtu.be/aHl0_P
 </div>
 
 - **Back-end:**
-  - PHP 8.x
+  - PHP
   - SQL
   - MySQL
 
@@ -135,14 +140,8 @@ You can view the project demo running [by clicking here](https://youtu.be/aHl0_P
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </div>
 
-- **Other Technologies:**
+- **Others:**
+  - **.htaccess:** Configuration file for managing friendly URLs.
+  - **Composer:** A tool for managing project dependencies.
   - **PHPMailer:** Used for sending automated emails.
   - **League/Plates:** Utilized for creating the templating system.
-  - **Composer:** A tool for managing project dependencies.
-  - **.htaccess:** Configuration file for managing friendly URLs.
-
-## Requirements
-
-- PHP 8.x
-- MySQL 8.x
-- Composer 2.x
